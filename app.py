@@ -27,5 +27,5 @@ import smtplib
 
         # Send email using Gmail SMTP
         with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-            smtp.login('your_email@gmail.com', 'your_app_password')
+            smtp.login('rqtahirtest@gmail.com', 'Champion13!')
             smtp.send_message(msg)
